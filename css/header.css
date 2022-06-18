@@ -13,7 +13,7 @@
 .header-top {
     display: flex;
     height: 100px;
-    background: rgba(255, 255, 255, 0.98);
+    background: #f08c52;
     z-index: 99;
     padding: 0 calc((100% - 1160px)/2);
 }
@@ -50,6 +50,7 @@
 .header .header-top .h-left a img {
     width: 36px;
     height: 36px;
+    border-radius: 50%;
 }
 
 .header .header-top .h-right {
@@ -102,12 +103,12 @@
 }
 
 .header .header-top .h-right ul li a {
-    color: #898fa0;
+    color: #802f00;
     text-decoration: none;
 }
 
 .header .header-top .h-right ul li a:hover {
-    color: #12183A;
+    color: #dbdbdb;
 }
 
 .header .header-top .h-right ul li .dot {
@@ -121,7 +122,7 @@
 }
 
 .header .header-top .h-right .select a {
-    color: #12183A;
+    color: #ffffff;
 }
 
 .header .header-top .h-right .select .dot {
@@ -129,7 +130,7 @@
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: #006AFF;
+    background: #ffffff;
     position: relative;
     top: -12px;
     left: 2px;

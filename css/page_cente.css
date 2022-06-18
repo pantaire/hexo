@@ -2,7 +2,7 @@
     font-size: 32px;
     font-weight: 900;
     padding-bottom: 10px;
-    border-bottom: 2px solid #059dc0;
+    border-bottom: 2px solid #f08c52;
 }
 
 #article h1,
@@ -13,7 +13,7 @@
 
 #article h2 {
     font-size: 25px;
-    border-left: 5px solid #059dc0;
+    border-left: 5px solid #f08c52;
     padding-left: 10px;
 }
 
@@ -21,17 +21,17 @@
     font-size: 20px;
     margin: 15px 0 10px;
     padding-left: 10px;
-    border-left: 3px solid #059dc0;
+    border-left: 3px solid #f08c52;
 }
 
 #article h4 {
     font-size: 19px;
     margin: 15px 0 10px;
-    border-left: 2px solid #059dc0;
+    border-left: 2px solid #f08c52;
 }
 
 #article a {
-    color: #059dc0;
+    color: #f08c52;
     text-decoration: none;
     
 }
@@ -56,7 +56,7 @@
     max-width: 80%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 0 3px #c3c3c3;
+    box-shadow: 0 0 20px #f08c52;
     cursor: pointer;
     margin: 0 auto;
 }
