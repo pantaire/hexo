@@ -24,6 +24,10 @@ body {
     flex-grow: 1
 }
 
+.footer .Copyright a {
+    color: #f08c52;
+}
+
 .footer .contact {
     display: flex;
     flex-basis: 0;
