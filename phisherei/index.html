@@ -10,7 +10,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico">
 
 
-<meta name="keywords" content="3D,art,blender,video,">
+<meta name="keywords" content="blender,3D,art,video,">
 <meta name="description" content="">
 
 
@@ -257,11 +257,11 @@
         <ul class="tag">
             
             
+            <li><a href="/tags/blender">blender</a></li>
+            
             <li><a href="/tags/3D">3D</a></li>
             
             <li><a href="/tags/art">art</a></li>
-            
-            <li><a href="/tags/blender">blender</a></li>
             
             <li><a href="/tags/video">video</a></li>
             
@@ -293,7 +293,8 @@
 
 <p>I made this tiny fisherman’s house entirely in Blender.<br>Let me show you how i modeled it and how to set up the scene!<br>I hope you enjoy this video!<br>Btw: the sign says “phisherei” - a pun on fischerei, meaning fishery in German (duh) and phishing as in mails. You get it. Germans are hilarious. Don’t believe the stereotypes. </p>
 <h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a target="_blank" rel="noopener" href="https://taire.gumroad.com/l/phishery">https://taire.gumroad.com/l/phishery</a> (don’t worry, it’s free. As in beer.)  </p>
-<h2 id="Details"><a href="#Details" class="headerlink" title="Details"></a>Details</h2><p>Modeled and animated in Blender 3.0, edited with Kdenlive 21.04 on Kubuntu Linux 21.10<br><br><br><img src="/images/phisherei.png" alt="Phisherei">  </p>
+<h2 id="Details"><a href="#Details" class="headerlink" title="Details"></a>Details</h2><p>Modeled and animated in Blender 3.0, edited with Kdenlive 21.04 on Kubuntu Linux 21.10<br><br><br><img src="/images/phisherei.png" alt="Phisherei">  
+ </p>
 
     </div>
 </div>
@@ -322,6 +323,13 @@
     $(function () { $('#article').click(function (e) { if (e.target.tagName == "IMG") { if ($('#nonediv').length == 0) { let MImg = `<div id='noneimg'><img src='${e.target.currentSrc}'></div>`; let MDiv = "<div id='nonediv' style='cursor: pointer;display: none; position: fixed;left: 0;top: 0; right: 0;bottom: 0;background-color: #333;opacity:0.5;z-index: 108;'></div>"; $('#article').append(MDiv); $('#article').append(MImg); $("#nonediv").fadeIn("slow"); $("#noneimg img").fadeIn("slow") } } else { if ($('#nonediv').length !== 0) { $("#noneimg ").fadeOut("slow"); $("#nonediv").fadeOut("slow"); setTimeout(function () { $('#nonediv').remove(); $('#noneimg').remove() }, 500) } } }); $('.article-content').addClass('content-move') });
 </script>
 <div class="Last-Next">
+    
+    <a href="/businesscards/">
+        <div class="last">
+            <span>Previous</span>
+            <p>I got business cards!</p>
+        </div>
+    </a>
     
 
     
